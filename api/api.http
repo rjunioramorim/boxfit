@@ -1,0 +1,22 @@
+### REST Client - API Sistema de Agendamento de Aulas
+
+@baseUrl = http://localhost:3333
+@contentType = application/json
+
+### Variáveis de autenticação (preencher após login)
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJ1c2VyLWFkbWluIiwidGVuYW50SWQiOiJ0ZW5hbnQtZGVmYXVsdCIsImVtYWlsIjoiYWRtaW5AZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjU1NjcyMDV9.DU8JQwIvuWomKf1Racm3iHizFTetdK-Ae9dfMqgHBHc
+@refreshToken = 
+
+### ============================================
+### AUTENTICAÇÃO
+### ============================================
+
+### Login
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: {{contentType}}
+
+{
+  "email": "admin@admin.com",
+  "password": "password1"
+}
