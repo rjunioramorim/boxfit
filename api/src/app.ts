@@ -2,7 +2,7 @@ import fastifyJwt from '@fastify/jwt'
 import fastifyCookie from '@fastify/cookie'
 import fastify from 'fastify'
 import { ZodError } from 'zod'
-import { env } from '@/core/env'
+import { env } from '@/lib/env'
 
 
 export const app = fastify()
