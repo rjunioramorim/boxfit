@@ -1,0 +1,22 @@
+{
+  "name": "boxfit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:app\"",
+    "dev:api": "npm run dev --prefix api",
+    "dev:app": "npm run dev --prefix app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjunioramorim/boxfit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjunioramorim/boxfit/issues"
+  },
+  "homepage": "https://github.com/rjunioramorim/boxfit#readme"
+}
